@@ -1,9 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
-    "SDS",
-    "CCC"
+    "CDC"
   ],
   "key": {
     "C": {
@@ -11,9 +9,6 @@
     },
     "D": {
       "item": "minecraft:dried_kelp"
-    },
-    "S": {
-      "item": "create:shaft"
     }
   },
   "result": {
