@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- Rebuilt public jar after repository cleanup.
+- Renamed the internal Java package to `com.synderisdev.createpipes`.
+- Updated public mod metadata author to `SynderisDev`.
+
 ## 0.1.0
 
 - First public alpha setup.
