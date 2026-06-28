@@ -1,0 +1,82 @@
+name: Bug Report
+description: Report something broken in Create: Pipes.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please include enough detail to reproduce it.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Create: Pipes version
+      placeholder: "0.1.1"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.1"
+    validations:
+      required: true
+
+  - type: input
+    id: neoforge-version
+    attributes:
+      label: NeoForge version
+      placeholder: "21.1.233"
+    validations:
+      required: true
+
+  - type: input
+    id: create-version
+    attributes:
+      label: Create version
+      placeholder: "6.0.10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest setup that triggers the issue.
+      placeholder: |
+        1. Place ...
+        2. Set pipe side to ...
+        3. Put item ...
+        4. See ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash report
+      description: Paste relevant logs, crash reports, or screenshots here.
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add modpack info, server/client notes, or other context.

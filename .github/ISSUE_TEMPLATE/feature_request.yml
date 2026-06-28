@@ -1,0 +1,42 @@
+name: Feature Request
+description: Suggest an improvement or new pipe behavior.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for new features, balance changes, visuals, and quality-of-life ideas.
+
+  - type: textarea
+    id: request
+    attributes:
+      label: What should be added or changed?
+      description: Describe the feature or change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this useful?
+      description: Explain the gameplay or technical problem this solves.
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: How should it work?
+      description: Include examples, side modes, filter behavior, recipes, config options, or UI details if relevant.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: If there is another way to solve this, describe it here.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add screenshots, references, or extra context.
