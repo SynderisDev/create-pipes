@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Changed the item pipe recipe to `copper sheet, dried kelp, copper sheet`.
+
 ## 0.1.1
 
 - Rebuilt public jar after repository cleanup.
