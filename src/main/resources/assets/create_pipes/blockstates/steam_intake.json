@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "create_pipes:block/steam_intake", "x": 90 },
+    "facing=up": { "model": "create_pipes:block/steam_intake", "x": 270 },
+    "facing=north": { "model": "create_pipes:block/steam_intake" },
+    "facing=south": { "model": "create_pipes:block/steam_intake", "y": 180 },
+    "facing=west": { "model": "create_pipes:block/steam_intake", "y": 270 },
+    "facing=east": { "model": "create_pipes:block/steam_intake", "y": 90 }
+  }
+}
